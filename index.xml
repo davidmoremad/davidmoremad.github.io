@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dave&#39;s Website</title>
+    <link>https://davidmoremad.github.io/index.xml</link>
+    <description>Recent content on Dave&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://davidmoremad.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>London</title>
+      <link>https://davidmoremad.github.io/post/london/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/post/london/</guid>
+      <description>&lt;p&gt;Hello World !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New York</title>
+      <link>https://davidmoremad.github.io/post/new-york/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/post/new-york/</guid>
+      <description>&lt;p&gt;Hello World !
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
