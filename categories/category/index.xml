@@ -14,8 +14,28 @@
       <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
       
       <guid>https://davidmoremad.github.io/trip/london/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-&lt;/p&gt;</description>
+      <description>
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;Header One&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;QAteam&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;Item One&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Item Two&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Negrita&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;titulo-1&#34;&gt;Titulo 1&lt;/h1&gt;
+</description>
     </item>
     
   </channel>
