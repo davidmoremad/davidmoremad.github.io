@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crlf on Dave&#39;s Website</title>
+    <link>https://davidmoremad.github.io/tags/crlf/</link>
+    <description>Recent content in Crlf on Dave&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    
+	<atom:link href="https://davidmoremad.github.io/tags/crlf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Response Splitting</title>
+      <link>https://davidmoremad.github.io/blog/responsesplitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/blog/responsesplitting/</guid>
+      <description>&lt;p&gt;Inyección y modificación de cabeceras y cuerpo de la respuesta en un sitio web.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

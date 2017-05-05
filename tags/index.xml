@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dave&#39;s Website</title>
+    <link>https://davidmoremad.github.io/tags/</link>
+    <description>Recent content in Tags on Dave&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidmoremad.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Anothertag</title>
+      <link>https://davidmoremad.github.io/tags/anothertag/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/anothertag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apache</title>
+      <link>https://davidmoremad.github.io/tags/apache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Country</title>
+      <link>https://davidmoremad.github.io/tags/country/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/country/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crlf</title>
+      <link>https://davidmoremad.github.io/tags/crlf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/crlf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dns</title>
+      <link>https://davidmoremad.github.io/tags/dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dos</title>
+      <link>https://davidmoremad.github.io/tags/dos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/dos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Injection</title>
+      <link>https://davidmoremad.github.io/tags/injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slowloris</title>
+      <link>https://davidmoremad.github.io/tags/slowloris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/slowloris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>https://davidmoremad.github.io/tags/tag/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trip</title>
+      <link>https://davidmoremad.github.io/tags/trip/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/tags/trip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

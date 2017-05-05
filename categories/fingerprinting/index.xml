@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fingerprinting on Dave&#39;s Website</title>
+    <link>https://davidmoremad.github.io/categories/fingerprinting/</link>
+    <description>Recent content in Fingerprinting on Dave&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    
+	<atom:link href="https://davidmoremad.github.io/categories/fingerprinting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DNS - Gathering information</title>
+      <link>https://davidmoremad.github.io/blog/dns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidmoremad.github.io/blog/dns/</guid>
+      <description>&lt;p&gt;Obtención de información de servidores DNS usando tecnicas como Snooping o transferencia de zona.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
