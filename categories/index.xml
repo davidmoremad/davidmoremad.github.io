@@ -6,19 +6,9 @@
     <description>Recent content in Categories on Dave&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davidmoremad.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>America</title>
-      <link>https://davidmoremad.github.io/categories/america/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/america/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Analysis</title>
@@ -26,24 +16,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davidmoremad.github.io/categories/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Category</title>
-      <link>https://davidmoremad.github.io/categories/category/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/category/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continent</title>
-      <link>https://davidmoremad.github.io/categories/continent/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/continent/</guid>
       <description></description>
     </item>
     
@@ -80,33 +52,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davidmoremad.github.io/categories/injection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New York</title>
-      <link>https://davidmoremad.github.io/categories/new-york/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/new-york/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subcategory</title>
-      <link>https://davidmoremad.github.io/categories/subcategory/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/subcategory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trips</title>
-      <link>https://davidmoremad.github.io/categories/trips/</link>
-      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidmoremad.github.io/categories/trips/</guid>
       <description></description>
     </item>
     

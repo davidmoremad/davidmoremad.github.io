@@ -17,38 +17,11 @@
   </url>
   
   <url>
-    <loc>https://davidmoremad.github.io/trip/london/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/trip/manhattan/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/trip/portugal/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://davidmoremad.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>https://davidmoremad.github.io/categories/america/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://davidmoremad.github.io/categories/analysis/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/tags/anothertag/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,30 +37,11 @@
   
   <url>
     <loc>https://davidmoremad.github.io/categories/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/categories/category/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://davidmoremad.github.io/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/categories/continent/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/tags/country/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -141,12 +95,6 @@
   </url>
   
   <url>
-    <loc>https://davidmoremad.github.io/categories/new-york/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://davidmoremad.github.io/blog/responsesplitting/</loc>
   </url>
   
@@ -160,32 +108,7 @@
   </url>
   
   <url>
-    <loc>https://davidmoremad.github.io/categories/subcategory/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/tags/tag/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://davidmoremad.github.io/tags/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/tags/trip/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://davidmoremad.github.io/categories/trips/</loc>
-    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
