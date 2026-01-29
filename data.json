@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "<span class='text-slate-500'>I'm </span>David Amrani",
+    "title": "Cloud Security & Automation",
+    "summary": "Building scalable applications with a focus on clean code, performance, and user experience. Dedicated to crafting minimalist and efficient digital solutions."
+  },
+  "navigation": [
+    { "label": "Mini-games", "href": "#developments" },
+    { "label": "Articles", "href": "#media" },
+    { "label": "Tips", "href": "#faqs", "attribute": "data-faq-trigger" }
+  ],
+  "navigationCta": {
+    "label": "Contact",
+    "href": "mailto:hello@davidamrani.com"
+  },
+  "socialLinks": [
+    { "label": "Instagram", "href": "https://instagram.com/davidmoremad", "iconClass": "fa-brands fa-instagram" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/david-amrani", "iconClass": "fa-brands fa-linkedin" },
+    { "label": "X", "href": "https://x.com/davidmoremad", "iconClass": "fa-brands fa-x-twitter" },
+    { "label": "Medium", "href": "https://medium.com/@davidmoremad", "iconClass": "fa-brands fa-medium" },
+    { "label": "MyPublicInbox", "href": "https://mypublicinbox.com/davidmoremad", "iconClass": "fa-solid fa-inbox" },
+    { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" }
+  ],
+  "about": {
+    "paragraphs": [
+      "I am a software engineer dedicated to crafting minimalist and efficient digital solutions. With expertise in full-stack development, I focus on performance, accessibility, and clean architecture. My philosophy is rooted in simplicity and purposeful design."
+    ]
+  },
+  "experience": [
+    {
+      "role": "Senior Mentor",
+      "organization": "4Geeks Academy",
+      "period": "2025 - Presente",
+      "logo": "https://logo.clearbit.com/4geeksacademy.com",
+      "highlights": [
+        "Mentorizo cohortes avanzadas de ingeniería, ayudándoles a fortalecer criterios de seguridad y despliegue.",
+        "Coordino revisiones de portfolio y sesiones de pair-programming enfocadas en resultados reales."
+      ]
+    },
+    {
+      "role": "Cloud Security",
+      "organization": "Telefónica",
+      "period": "2017 - Presente",
+      "logo": "https://logo.clearbit.com/telefonica.com",
+      "highlights": [
+        "Gestiono iniciativas de hardening en plataformas multicloud y auditorías de cumplimiento.",
+        "Automatizo controles y runbooks que protegen datos críticos a escala corporativa."
+      ]
+    },
+      {
+      "role": "Entrepreneur",
+      "organization": "MrPrinteto",
+      "period": "2025 - Presente",
+      "logo": "https://logo.clearbit.com/mrprinteto.com",
+      "highlights": [
+        "Lanzo productos boutique que conectan seguridad con creatividad visual.",
+        "Dirijo la estrategia de crecimiento y alianzas locales."
+      ]
+    },
+    {
+      "role": "Ponente",
+      "organization": "Universitat de València",
+      "period": "2021 - 2025",
+      "logo": "https://logo.clearbit.com/uv.es",
+      "highlights": [
+        "Conferencias anuales sobre cultura DevSecOps y liderazgo técnico.",
+        "Diseñé workshops prácticos para estudiantes de ingeniería."
+      ]
+    },
+    {
+      "role": "SEC + QA Engineer",
+      "organization": "Telefónica",
+      "period": "2015 - 2017",
+      "logo": "https://logo.clearbit.com/telefonica.com",
+      "highlights": [
+        "Diseñé suites de pruebas de seguridad integradas en pipelines CI/CD.",
+        "Impulsé métricas de calidad que redujeron fallos en producción."
+      ]
+    }
+  ],
+  "developments": [
+    {
+      "name": "Status vitae",
+      "image": "./images/developments_2.png",
+      "href": "https://status-vitae.vercel.app/"
+    },
+    {
+      "name": "Refranero español",
+      "image": "./images/developments_1.png",
+      "href": "https://refranero-espanol.vercel.app/"
+    },
+    {
+      "name": "Quién lo dijo",
+      "image": "./images/developments_3.png",
+      "href": "https://who-said-that.vercel.app/"
+    }
+  ],
+  "mediaArticles": [
+    {
+      "platform": "El País",
+      "title": "Industria, hacia una fabricación digital y más eficiente",
+      "iconClass": "fa-solid fa-newspaper",
+      "href": "https://cincodias.elpais.com/cincodias/2022/07/04/extras/1656948524_579701.html"
+    },
+    {
+      "platform": "Geek Culture",
+      "title": "Cracking passwords is faster than ever before",
+      "iconClass": "fa-brands fa-medium",
+      "href": "https://medium.com/geekculture/cracking-passwords-is-faster-than-ever-before-f6ad558e9e08"
+    },
+    {
+      "platform": "The Startup",
+      "title": "Hardening images on cloud",
+      "iconClass": "fa-brands fa-medium",
+      "href": "https://medium.com/swlh/hardening-images-on-cloud-b4269944ee6c"
+    },
+    {
+      "platform": "The Startup",
+      "title": "Levels of software testing",
+      "iconClass": "fa-brands fa-medium",
+      "href": "https://medium.com/swlh/levels-of-software-testing-b943ce41a2c7"
+    },
+    {
+      "platform": "Geek Culture",
+      "title": "How to lead high performing teams",
+      "iconClass": "fa-brands fa-medium",
+      "href": "https://medium.com/geekculture/how-to-lead-high-performing-teams-96d415b1d920"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cómo puedo proteger mis cuentas?",
+      "answers": [
+        "Utiliza contraseñas fuertes y únicas para cada cuenta.",
+        "Habilita la autenticación de dos factores (2FA) siempre que sea posible.",
+        "Mantén tu software y aplicaciones actualizadas para protegerte contra vulnerabilidades conocidas."
+      ]
+    },
+    {
+      "question": "¿Qué es DevSecOps?",
+      "answers": [
+        "DevSecOps es una práctica que integra la seguridad en todas las etapas del ciclo de vida del desarrollo de software.",
+        "Implica la colaboración entre equipos de desarrollo, operaciones y seguridad para garantizar que las aplicaciones sean seguras desde el diseño hasta la implementación."
+      ]
+    },
+    {
+      "question": "¿Cómo puedo mejorar la seguridad en la nube?",
+      "answers": [
+        "Implementa controles de acceso estrictos y utiliza la autenticación multifactor.",
+        "Monitorea continuamente tus recursos en la nube para detectar actividades sospechosas.",
+        "Aplica políticas de cifrado para proteger los datos en tránsito y en reposo."
+      ]
+    }
+  ],
+  "footer": {
+    "email": "Build just with vibe-coding on opencode (GPT 5.2 Codex)",
+    "copy": "© 2026 David Amrani",
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/david-amrani", "iconClass": "fa-brands fa-linkedin" },
+      { "label": "X", "href": "https://x.com/davidmoremad", "iconClass": "fa-brands fa-x-twitter" }
+    ]
+  }
+}

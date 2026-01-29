@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>David Amrani | Software Engineer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#16a34a",
+            "background-light": "#f6f7f8",
+            "background-dark": "#17171F",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk", "sans-serif"]
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body
+  class="bg-background-light dark:bg-background-dark text-[#0d141b] dark:text-slate-50 transition-colors duration-200">
+  <!-- Top Navigation -->
+  <div class="flex flex-col items-center">
+    <div class="fixed top-0 left-0 right-0 z-40 border-b border-gray-200 dark:border-gray-800 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur">
+      <div class="w-full max-w-[900px] px-6 mx-auto">
+        <header class="flex items-center justify-between py-5">
+          <div class="flex items-center gap-2">
+            <span class="text-xl font-bold tracking-tight">
+              <span class="text-slate-500">I'm </span>
+              David Amrani
+            </span>
+          </div>
+          <div class="flex items-center gap-4">
+            <nav class="hidden md:flex items-center gap-4 text-sm font-medium">
+              <div class="flex items-center gap-8" id="nav-links">
+                <a class="nav-link hover:text-primary transition-colors" href="#about">About</a>
+                <a class="nav-link hover:text-primary transition-colors" href="#developments">Developments</a>
+              </div>
+              <div class="flex items-center gap-3 ml-4">
+                <button class="bg-primary text-white px-5 py-2 rounded-lg font-bold hover:bg-primary/90 transition-all" data-contact-trigger id="nav-cta" type="button">
+                  Contact
+                </button>
+              </div>
+            </nav>
+            <button id="theme-toggle"
+              class="flex items-center gap-2 px-3 py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-700 dark:text-gray-200 hover:border-primary transition-colors">
+              <span class="material-symbols-outlined" id="theme-icon">dark_mode</span>
+            </button>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <main class="w-full max-w-[900px] px-6 pt-36 md:pt-40 pb-20 flex flex-col gap-10">
+      <div class="flex flex-col md:flex-row gap-10 items-start">
+        <div class="flex-1 flex flex-col gap-6">
+          <div class="flex flex-col gap-2">
+            <h1 class="text-6xl md:text-7xl font-black tracking-tighter text-[#0d141b] dark:text-white" id="profile-name">
+              David Amrani
+            </h1>
+            <h2 class="text-xl md:text-2xl font-medium text-primary" id="profile-title">
+              Software Engineer / Builder
+            </h2>
+          </div>
+          <p class="max-w-2xl text-lg text-gray-600 dark:text-gray-400 leading-relaxed" id="profile-summary">
+            Building scalable applications with a focus on clean code, performance, and user experience. Dedicated to crafting minimalist and efficient digital solutions.
+          </p>
+          <!-- Actions/Social Bar -->
+          <div class="flex flex-wrap gap-4 mt-4" id="social-links">
+            <a class="social-icon-link" href="https://instagram.com/davidmoremad" aria-label="Instagram">
+              <span class="sr-only">Instagram</span>
+              <i class="fa-brands fa-instagram social-icon"></i>
+            </a>
+            <a class="social-icon-link" href="https://www.linkedin.com/in/david-amrani" aria-label="LinkedIn">
+              <span class="sr-only">LinkedIn</span>
+              <i class="fa-brands fa-linkedin social-icon"></i>
+            </a>
+            <a class="social-icon-link" href="https://x.com/davidmoremad" aria-label="X">
+              <span class="sr-only">X</span>
+              <i class="fa-brands fa-x-twitter social-icon"></i>
+            </a>
+            <a class="social-icon-link" href="https://medium.com/@davidmoremad" aria-label="Medium">
+              <span class="sr-only">Medium</span>
+              <i class="fa-brands fa-medium social-icon"></i>
+            </a>
+            <a class="social-icon-link" href="https://mypublicinbox.com/davidmoremad" aria-label="MyPublicInbox">
+              <span class="sr-only">MyPublicInbox</span>
+              <i class="fa-solid fa-inbox social-icon"></i>
+            </a>
+            <a class="social-icon-link" href="https://github.com/davidmoremad" aria-label="GitHub">
+              <span class="sr-only">GitHub</span>
+              <i class="fa-brands fa-github social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="w-full max-w-[260px] md:max-w-[280px]">
+          <div class="rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-2xl h-[360px] relative">
+            <img src="profile.jpg" alt="Portrait of David Amrani" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0d141b]/80 via-[#0d141b]/10"></div>
+            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/85 dark:bg-gray-900/85 backdrop-blur-lg rounded-2xl px-6 py-4 text-center w-11/12 max-w-sm">
+              <p class="text-xs font-semibold uppercase tracking-[0.3em] text-primary mb-1">Location</p>
+              <p class="text-lg font-bold text-gray-900 dark:text-gray-100">Currently in Madrid</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About Section -->
+      <section class="" id="about">
+        <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-primary rounded-full"></span>
+          About me
+        </h3>
+        <div class="text-gray-700 dark:text-gray-300 text-lg leading-loose space-y-4" id="about-content">
+            
+        </div>
+      </section>
+
+      
+      <!-- Tips Section -->
+      <section class="pt-8" id="tips">
+        <div class="flex flex-col gap-6 rounded-3xl border border-gray-200 dark:border-gray-800 bg-gradient-to-r from-white to-green-50 dark:from-gray-900 dark:to-gray-800/70 p-8">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.4em] text-primary mb-2">Tips &amp; FAQs</p>
+            <h3 class="text-2xl font-bold tracking-tight mb-3">Most received questions</h3>
+            <p class="text-gray-600 dark:text-gray-300 max-w-2xl">These are a few questions I get asked frequently and I like to have them documented for easy access.</p>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <button class="bg-primary text-white px-6 py-3 rounded-xl font-semibold tracking-wide hover:bg-primary/90 transition-all" data-faq-trigger type="button">
+              Open FAQ Playbook
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Developments Section -->
+      <section class="pt-8" id="developments">
+        <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-primary rounded-full"></span>
+          Mini-games
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="developments-grid">
+          <a class="development-banner" href="#" aria-label="Development preview"></a>
+        </div>
+      </section>
+
+      <!-- Media Articles Section -->
+      <section class="pt-16" id="media">
+        <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-primary rounded-full"></span>
+          Media Articles
+        </h3>
+        <div class="space-y-3" id="media-list">
+          <p class="text-gray-500 dark:text-gray-400 text-sm">Media features will be hydrated from content.</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="pt-16 pb-20" id="contact">
+        <div class="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-900/70 p-8 flex flex-col gap-4">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.4em] text-primary mb-2">Contact</p>
+            <h3 class="text-2xl font-bold tracking-tight">Let's collaborate</h3>
+            <p class="text-gray-600 dark:text-gray-300 max-w-3xl">Share a bit about your idea, security challenge, or team you want to nurture. I respond within 24 hours with next steps.</p>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <button class="bg-primary text-white px-6 py-3 rounded-xl font-semibold tracking-wide hover:bg-primary/90 transition-all" data-contact-trigger type="button">
+              Open Contact Form
+            </button>
+            <a class="text-primary font-semibold underline underline-offset-4" href="mailto:hello@davidamrani.com">hello@davidamrani.com</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- Footer -->
+    <footer
+      class="w-full max-w-[900px] px-6 py-12 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-gray-500 dark:text-gray-400">
+      <div class="flex flex-col gap-1 items-center md:items-start">
+        <p id="footer-copy">© 2026 David Amrani.</p>
+        <p id="footer-email"> Built with intention.</p>
+      </div>
+      <div class="flex items-center gap-6" id="footer-links">
+        <a class="hover:text-primary transition-colors flex items-center justify-center text-lg" href="#" aria-label="GitHub">
+          <span class="sr-only">GitHub</span>
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="hover:text-primary transition-colors flex items-center justify-center text-lg" href="#" aria-label="LinkedIn">
+          <span class="sr-only">LinkedIn</span>
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a class="hover:text-primary transition-colors flex items-center justify-center text-lg" href="#" aria-label="Twitter">
+          <span class="sr-only">Twitter</span>
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+    </footer>
+
+  </div>
+
+  <div aria-hidden="true" class="fixed inset-0 z-50 hidden" id="contact-modal" role="dialog" aria-modal="true">
+    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-contact-dismiss></div>
+    <div class="relative mx-auto mt-20 w-full max-w-lg px-6">
+      <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-2xl p-6 md:p-8">
+        <div class="flex items-start justify-between gap-4 mb-6">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.35em] text-primary mb-2">Contact</p>
+            <h3 class="text-2xl font-bold tracking-tight">Let's build together</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Share a little about your idea and I'll get back to you within a day.</p>
+          </div>
+          <button class="text-gray-400 hover:text-primary transition-colors" data-contact-dismiss type="button"
+            aria-label="Close contact form">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
+        <form class="space-y-4" id="contact-form">
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1" for="contact-name">Full
+              Name</label>
+            <input class="w-full rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 focus:border-primary focus:ring-2 focus:ring-primary/40"
+              id="contact-name" name="name" placeholder="Ada Lovelace" required type="text" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1"
+              for="contact-email">Email</label>
+            <input class="w-full rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 focus:border-primary focus:ring-2 focus:ring-primary/40"
+              id="contact-email" name="email" placeholder="you@email.com" required type="email" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1"
+              for="contact-message">Project Details</label>
+            <textarea class="w-full rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 focus:border-primary focus:ring-2 focus:ring-primary/40"
+              id="contact-message" name="message" placeholder="Goals, scope, timeline..." required rows="4"></textarea>
+          </div>
+          <button
+            class="w-full bg-primary text-white rounded-lg py-3 font-semibold tracking-wide hover:bg-primary/90 transition-colors"
+            type="submit">Send Message</button>
+          <p class="text-sm text-gray-500 dark:text-gray-400" id="contact-feedback" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div aria-hidden="true" class="fixed inset-0 z-50 hidden" id="faq-modal" role="dialog" aria-modal="true">
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" data-faq-dismiss></div>
+    <div class="relative mx-auto mt-20 w-full max-w-2xl px-6">
+      <div class="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-3xl shadow-2xl p-6 md:p-8">
+        <div class="flex items-start justify-between gap-4 mb-6">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.4em] text-primary mb-2">FAQ Playbook</p>
+            <h3 class="text-2xl font-bold tracking-tight">Security Tips I live by</h3>
+            <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Saved directly from my mentorship sessions.</p>
+          </div>
+          <button class="text-gray-400 hover:text-primary transition-colors" data-faq-dismiss type="button" aria-label="Close tips modal">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+        </div>
+        <div class="space-y-4" id="faq-content">
+          <article class="border border-gray-200 dark:border-gray-800 rounded-2xl p-4">
+            <p class="text-sm text-gray-500 dark:text-gray-400">Loading tips...</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
