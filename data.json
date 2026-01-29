@@ -2,28 +2,26 @@
   "profile": {
     "name": "<span class='text-slate-500'>I'm </span>David Amrani",
     "title": "Cloud Security & Automation",
-    "summary": "Building scalable applications with a focus on clean code, performance, and user experience. Dedicated to crafting minimalist and efficient digital solutions."
+    "summary": "Building cloud systems focused on security & automation. Sharing my experience in universities and articles."
   },
   "navigation": [
     { "label": "Mini-games", "href": "#developments" },
     { "label": "Articles", "href": "#media" },
     { "label": "Tips", "href": "#faqs", "attribute": "data-faq-trigger" }
   ],
-  "navigationCta": {
-    "label": "Contact",
-    "href": "mailto:hello@davidamrani.com"
-  },
   "socialLinks": [
-    { "label": "Instagram", "href": "https://instagram.com/davidmoremad", "iconClass": "fa-brands fa-instagram" },
     { "label": "LinkedIn", "href": "https://www.linkedin.com/in/david-amrani", "iconClass": "fa-brands fa-linkedin" },
+    { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" },
     { "label": "X", "href": "https://x.com/davidmoremad", "iconClass": "fa-brands fa-x-twitter" },
     { "label": "Medium", "href": "https://medium.com/@davidmoremad", "iconClass": "fa-brands fa-medium" },
-    { "label": "MyPublicInbox", "href": "https://mypublicinbox.com/davidmoremad", "iconClass": "fa-solid fa-inbox" },
-    { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" }
+    { "label": "MyPublicInbox", "href": "https://mypublicinbox.com/DavidAmrani", "iconClass": "fa-solid fa-inbox" },
+    { "label": "Telefonica", "href": "https://www.telefonica.com/es/autores/david-amrani-hernandez/", "iconClass": "fa-solid fa-address-card" },
+    { "label": "Instagram", "href": "https://instagram.com/davidmoremad", "iconClass": "fa-brands fa-instagram" }
   ],
   "about": {
     "paragraphs": [
-      "I am a software engineer dedicated to crafting minimalist and efficient digital solutions. With expertise in full-stack development, I focus on performance, accessibility, and clean architecture. My philosophy is rooted in simplicity and purposeful design."
+      "I work with cloud infrastructures as a security and quality manager. My daily tasks includes securing cloud environments, improving technical processes, and automating repetitive operational tasks along different dev teams.",
+      "Alongside my professional work, I'm a casual writer, speaker and teacher, helping students with real cases in cloud, cybersecurity, and modern software practices."
     ]
   },
   "experience": [
@@ -115,10 +113,10 @@
       "href": "https://medium.com/swlh/hardening-images-on-cloud-b4269944ee6c"
     },
     {
-      "platform": "The Startup",
-      "title": "Levels of software testing",
-      "iconClass": "fa-brands fa-medium",
-      "href": "https://medium.com/swlh/levels-of-software-testing-b943ce41a2c7"
+      "platform": "Telefonica",
+      "title": "Patinando por Internet. Trucos para el uso diario y la seguridad",
+      "iconClass": "fa-solid fa-newspaper",
+      "href": "https://www.telefonica.com/es/sala-comunicacion/reportes/trucos-patinar-internet-seguridad-eficiencia-diaria/"
     },
     {
       "platform": "Geek Culture",
@@ -129,26 +127,45 @@
   ],
   "faqs": [
     {
-      "question": "¿Cómo puedo proteger mis cuentas?",
+      "question": "⚠️ Me han hackeado la cuenta, ¿qué hago?",
       "answers": [
-        "Utiliza contraseñas fuertes y únicas para cada cuenta.",
-        "Habilita la autenticación de dos factores (2FA) siempre que sea posible.",
-        "Mantén tu software y aplicaciones actualizadas para protegerte contra vulnerabilidades conocidas."
+        "Cambia tu contraseña inmediatamente si tienes acceso a la cuenta. Si no, utiliza las opciones de recuperación de cuenta proporcionadas por el servicio o ponte en contacto con su soporte técnico.",
+        "Habilita el doble factor de autenticación (2FA) en todas tus cuentas. Esto hará que aunque sepan tu contraseña, no puedan acceder sin tener acceso a tu movil o segundo factor.",
+        "Evalua el alcance del daño. Otras cuentas pueden estar comprometidas si usas la misma contraseña, especialmente si tienen acceso a tu correo electrónico.",
+        "Revisa la actividad reciente de la cuenta. Normalmente se ofrece un historial de accesos o actividades recientes."
       ]
     },
     {
-      "question": "¿Qué es DevSecOps?",
+      "question": "🔒 ¿Cómo puedo estar seguro en Internet?",
       "answers": [
-        "DevSecOps es una práctica que integra la seguridad en todas las etapas del ciclo de vida del desarrollo de software.",
-        "Implica la colaboración entre equipos de desarrollo, operaciones y seguridad para garantizar que las aplicaciones sean seguras desde el diseño hasta la implementación."
+        "Usa contraseñas diferentes. Puedes usar un gestor de contraseñas para ayudarte a generar y almacenar contraseñas. ¡Así no tendrás que recordarlas todas!",
+        "Habilita el segundo factor de autenticación (2FA) siempre que sea posible. Esto hace que los atacantes deban tener acceso a tu móvil, además de tu contraseña, para poder acceder a tu cuenta.",
+        "Usa cuentas temporales o desechables para registrarte en sitios de poca confianza o que no uses frecuentemente. Webs como bugmenot.com o temp-mail.org pueden ayudarte con esto.",
+        "Se desconfiad@. No te registres en toda web que veas, cuanto más te expongas, más posibilidades hay de ser hackeado. Cada APP que instales o web en la que te registres es una posible puerta de entrada para un atacante."
       ]
     },
     {
-      "question": "¿Cómo puedo mejorar la seguridad en la nube?",
+      "question": "❓ ¿Cómo puedo saber si he sido hackeado?",
       "answers": [
-        "Implementa controles de acceso estrictos y utiliza la autenticación multifactor.",
-        "Monitorea continuamente tus recursos en la nube para detectar actividades sospechosas.",
-        "Aplica políticas de cifrado para proteger los datos en tránsito y en reposo."
+        "En primer lugar, dalo por hecho. Si tienes presencia online, es muy probable que en algún momento hayas sido comprometido.",
+        "En Have I Been Pwned (https://haveibeenpwned.com/) puedes comprobar si tu correo electrónico ha sido filtrado en alguna brecha de seguridad conocida.",
+        "Revisa la actividad reciente de tus cuentas. Muchas plataformas ofrecen un historial de accesos o actividades recientes."
+      ]
+    },
+    {
+      "question": "📧 ¿Cómo puedo usar múltiples emails en Gmail?",
+      "answers": [
+        "Puedes usar el símbolo '+' para crear variaciones de tu dirección de correo electrónico. Por ejemplo, si tu correo es 'ejemplo@gmail.com', puedes usar 'ejemplo+trabajo@gmail.com' y los correos seguirán llegando a tu bandeja de entrada.",
+        "Esto es útil para filtrar correos o identificar quién ha compartido tu dirección de correo. Si te registras en Zara, puedes usar el email ejemplo+zara@gmail.com para saber si Zara ha compartido tu correo con terceros."
+      ]
+    },
+    {
+      "question": "🥷 ¿Cómo puedo aprender ciberseguridad?",
+      "answers": [
+        "Lectura: Hay muchos libros dedicados a la ciberseguridad. Los más conocidos y recomendados son de la editorial 0xWord (0xword.com)",
+        "Laboratorios: Puedes usar webs como TryHackme.com, HackTheBox.com, o PortSwigger Academy para practicar en entornos seguros.",
+        "Juegos: Hay videosjuegos como TercerOjo.net, 'Hacknet' (Steam), 'Orwell' (Steam) o 'Hacker Evolution' (Steam) que simulan entornos de hacking.",
+        "Webs / Tutoriales: Puedes encontrar tutoriales y recursos en sitios como OWASP, OffSec, Incibe, WhiteRabbit..."
       ]
     }
   ],
@@ -156,9 +173,11 @@
     "email": "Build just with vibe-coding on opencode (GPT 5.2 Codex)",
     "copy": "© 2026 David Amrani",
     "links": [
-      { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/david-amrani", "iconClass": "fa-brands fa-linkedin" },
-      { "label": "X", "href": "https://x.com/davidmoremad", "iconClass": "fa-brands fa-x-twitter" }
+      { "label": "GitHub", "href": "https://github.com/davidmoremad", "iconClass": "fa-brands fa-github" },
+      { "label": "X", "href": "https://x.com/davidmoremad", "iconClass": "fa-brands fa-x-twitter" },
+      { "label": "Medium", "href": "https://medium.com/@davidmoremad", "iconClass": "fa-brands fa-medium" },
+      { "label": "MyPublicInbox", "href": "https://mypublicinbox.com/DavidAmrani", "iconClass": "fa-solid fa-inbox" }
     ]
   }
 }
