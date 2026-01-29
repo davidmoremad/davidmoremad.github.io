@@ -5,8 +5,8 @@
     "summary": "Building cloud systems focused on security & automation. Sharing my experience in universities and articles."
   },
   "navigation": [
-    { "label": "Mini-games", "href": "#developments" },
     { "label": "Articles", "href": "#media" },
+    { "label": "Mini-games", "href": "#developments" },
     { "label": "Tips", "href": "#faqs", "attribute": "data-faq-trigger" }
   ],
   "socialLinks": [

@@ -9,6 +9,7 @@ let lastFocusedElement;
 let faqModalElement;
 let faqFocusables = [];
 let lastFaqFocusedElement;
+let brandLogoElement;
 
 async function loadSiteData() {
   try {
@@ -335,17 +336,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function setupScrollSpy() {
-  if (!navLinkElements.length) {
-    return;
-  }
-
   if (sectionObserver) {
     sectionObserver.disconnect();
   }
 
-  const sections = navLinkElements
-    .map((link) => document.getElementById(link.dataset.sectionId))
-    .filter(Boolean);
+  const sections = getScrollSections();
 
   if (!sections.length) {
     return;
@@ -375,6 +370,14 @@ function handleSectionIntersection(entries) {
 }
 
 function setActiveNav(sectionId) {
+  const brandHighlight = sectionId === 'intro' || sectionId === 'about';
+  if (!brandLogoElement) {
+    brandLogoElement = document.getElementById('brand-logo');
+  }
+  if (brandLogoElement) {
+    brandLogoElement.classList.toggle('brand-link-active', brandHighlight);
+  }
+
   if (!sectionId) {
     currentSectionId = null;
     navLinkElements.forEach((link) => {
@@ -391,6 +394,23 @@ function setActiveNav(sectionId) {
   navLinkElements.forEach((link) => {
     const isActive = link.dataset.sectionId === sectionId;
     link.classList.toggle('nav-link-active', isActive);
+  });
+}
+
+function getScrollSections() {
+  const navSectionIds = new Set(
+    navLinkElements
+      .map((link) => link.dataset.sectionId)
+      .filter(Boolean)
+  );
+
+  const candidates = Array.from(document.querySelectorAll('#intro, main section'));
+  return candidates.filter((section) => {
+    const id = section.id;
+    if (!id) {
+      return false;
+    }
+    return id === 'intro' || id === 'about' || navSectionIds.has(id);
   });
 }
 
@@ -685,5 +705,5 @@ function resolveMetaImage(app = {}) {
   if (app.image) {
     return app.image;
   }
-  return 'profile.jpg';
+  return 'images/profile.jpg';
 }

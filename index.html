@@ -4,6 +4,29 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <title>David Amrani | Cloud Security & Automation Engineer</title>
+  <meta name="description"
+    content="David Amrani is a software engineer and builder focused on scalable applications, clean code, and thoughtful user experiences." />
+  <meta name="keywords"
+    content="David Amrani, software engineer, cloud security, automation, full-stack, web development, performance, user experience" />
+  <meta name="author" content="David Amrani" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://davidmoremad.github.io/" />
+  <meta name="theme-color" content="#f6f7f8" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#17171F" media="(prefers-color-scheme: dark)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="David Amrani | Cloud Security & Automation Engineer" />
+  <meta property="og:description"
+    content="David Amrani is a software engineer and builder focused on scalable applications, clean code, and thoughtful user experiences." />
+  <meta property="og:url" content="https://davidmoremad.github.io/" />
+  <meta property="og:image" content="https://davidmoremad.github.io/images/twitter_meta.png" />
+  <meta property="og:image:alt" content="Portrait of David Amrani" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="David Amrani | Cloud Security & Automation Engineer" />
+  <meta name="twitter:description"
+    content="David Amrani is a software engineer and builder focused on scalable applications, clean code, and thoughtful user experiences." />
+  <meta name="twitter:image" content="https://davidmoremad.github.io/images/twitter_meta.png" />
+  <meta name="twitter:site" content="@davidmoremad" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
     rel="stylesheet" />
   <link
@@ -46,15 +69,14 @@
       <div class="w-full max-w-[900px] px-6 mx-auto">
         <header class="flex items-center justify-between py-5">
           <div class="flex items-center gap-2">
-            <span class="text-xl font-bold tracking-tight">
-              <span class="text-slate-500">I'm </span>
+            <a class="text-xl font-bold tracking-tight brand-link" id="brand-logo" href="/">
+              <span class="text-slate-500">I'm</span>&nbsp;
               David Amrani
-            </span>
+            </a>
           </div>
           <div class="flex items-center gap-4">
             <nav class="hidden md:flex items-center gap-4 text-sm font-medium">
               <div class="flex items-center gap-8" id="nav-links">
-                <a class="nav-link hover:text-primary transition-colors" href="#about">About</a>
                 <a class="nav-link hover:text-primary transition-colors" href="#developments">Developments</a>
               </div>
               <div class="flex items-center gap-3 ml-4">
@@ -73,7 +95,7 @@
     </div>
     <!-- Hero Section -->
     <main class="w-full max-w-[900px] px-6 pt-36 md:pt-40 pb-20 flex flex-col gap-10">
-      <div class="flex flex-col md:flex-row gap-10 items-start">
+      <div class="flex flex-col md:flex-row gap-10 items-start" id="intro">
         <div class="flex-1 flex flex-col gap-6">
           <div class="flex flex-col gap-2">
             <h1 class="text-6xl md:text-7xl font-black tracking-tighter text-[#0d141b] dark:text-white" id="profile-name">
@@ -114,13 +136,13 @@
             </a>
           </div>
         </div>
-        <div class="w-full max-w-[260px] md:max-w-[280px]">
-          <div class="rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-2xl h-[360px] relative">
-            <img src="profile.jpg" alt="Portrait of David Amrani" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+        <div class="w-full max-w-[260px] md:max-w-[260px]">
+          <div class="rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800 shadow-2xl h-[310px] relative">
+            <img src="images/profile.jpg" alt="Portrait of David Amrani" class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
             <div class="absolute inset-0 bg-gradient-to-t from-[#0d141b]/80 via-[#0d141b]/10"></div>
-            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/85 dark:bg-gray-900/85 backdrop-blur-lg rounded-2xl px-6 py-4 text-center w-11/12 max-w-sm">
+            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white/85 dark:bg-gray-900/85 backdrop-blur-lg rounded-2xl px-6 py-4 text-center w-11/12 max-w-sm">
               <p class="text-xs font-semibold uppercase tracking-[0.3em] text-primary mb-1">Location</p>
-              <p class="text-lg font-bold text-gray-900 dark:text-gray-100">Currently in Madrid</p>
+              <p class="text-md font-bold text-gray-900 dark:text-gray-100">Madrid, Spain </p>
             </div>
           </div>
         </div>
@@ -138,11 +160,11 @@
 
       
       <!-- Tips Section -->
-      <section class="pt-8" id="tips">
+      <section class="pt-8 flex flex-col gap-5" id="tips">
         <div class="flex flex-col gap-6 rounded-3xl border border-gray-200 dark:border-gray-800 bg-gradient-to-r from-white to-green-50 dark:from-gray-900 dark:to-gray-800/70 p-8">
           <div>
             <p class="text-xs font-semibold uppercase tracking-[0.4em] text-primary mb-2">Tips &amp; FAQs</p>
-            <h3 class="text-2xl font-bold tracking-tight mb-3">Most received questions</h3>
+            <h3 class="text-2xl font-bold tracking-tight mb-3">Most asked questions</h3>
             <p class="text-gray-600 dark:text-gray-300 max-w-2xl">These are a few questions I get asked frequently and I like to have them documented for easy access.</p>
           </div>
           <div class="flex flex-wrap gap-4">
@@ -151,9 +173,21 @@
             </button>
           </div>
         </div>
+        
       </section>
 
-      <!-- Developments Section -->
+      <!-- Articles Section -->
+      <section class="pt-8" id="media">
+        <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-primary rounded-full"></span>
+          Posts &amp; Articles
+        </h3>
+        <div class="space-y-3" id="media-list">
+          <p class="text-gray-500 dark:text-gray-400 text-sm">Media features will be hydrated from content.</p>
+        </div>
+      </section>
+
+      <!-- MiniGames Section -->
       <section class="pt-8" id="developments">
         <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
           <span class="w-8 h-1 bg-primary rounded-full"></span>
@@ -164,30 +198,20 @@
         </div>
       </section>
 
-      <!-- Media Articles Section -->
-      <section class="pt-16" id="media">
-        <h3 class="text-2xl font-bold tracking-tight mb-6 flex items-center gap-2">
-          <span class="w-8 h-1 bg-primary rounded-full"></span>
-          Posts &amp; Articles
-        </h3>
-        <div class="space-y-3" id="media-list">
-          <p class="text-gray-500 dark:text-gray-400 text-sm">Media features will be hydrated from content.</p>
-        </div>
-      </section>
-
       <!-- Contact Section -->
-      <section class="pt-16 pb-20" id="contact">
+      <section class="pt-8" id="contact">
         <div class="rounded-3xl border border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-900/70 p-8 flex flex-col gap-4">
           <div>
             <p class="text-xs font-semibold uppercase tracking-[0.4em] text-primary mb-2">Contact</p>
-            <h3 class="text-2xl font-bold tracking-tight">Let's collaborate</h3>
-            <p class="text-gray-600 dark:text-gray-300 max-w-3xl">Share a bit about your idea, security challenge, or team you want to nurture. I respond within 24 hours with next steps.</p>
+            <h3 class="text-2xl font-bold tracking-tight">Want to chat?</h3>
+            <p class="text-gray-600 dark:text-gray-300 max-w-3xl pt-2">
+              Whether you have a project in mind, have questions or just want to say hi, feel free to reach out. I'm always open to have a beer and a good chat.
+            </p>
           </div>
           <div class="flex flex-wrap gap-4">
             <button class="bg-primary text-white px-6 py-3 rounded-xl font-semibold tracking-wide hover:bg-primary/90 transition-all" data-contact-trigger type="button">
-              Open Contact Form
+              Let's talk!
             </button>
-            <a class="text-primary font-semibold underline underline-offset-4" href="mailto:hello@davidamrani.com">hello@davidamrani.com</a>
           </div>
         </div>
       </section>
